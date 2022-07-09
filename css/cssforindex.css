@@ -3,58 +3,104 @@
 }
 
 body{
-    background-color: whitesmoke;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
-
 header{
-    padding: 5px 4% 5px;
+    background-color: aqua;
+    height: 75px;
+    width: 100%;
+    padding: 30px 4% 10px;
     position: fixed;
     top: 0;
     display: flex;
     align-items: center;
 }
-.header{
-    width: 100%;
-    background-color: gray;
-}
-header a{
-    color: inherit;
-}
 header h1{
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 40px;
+}
+header a#menu{
+    text-decoration: none;
     color: black;
 }
+a#home{
+    text-decoration: none;
+    color: black;
+    
+}
 
-.footer{
-    height: 100px;
+header ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+header li{
+    margin: 0 0 0 20px;
+    font-size: 14px;
+}
+header nav{
+    margin: 0 0 0 auto;
+}
+div#picture{
+    padding: 75px 0 0 0;
+}
+div.menu#mainmenu{
+    height: 50px;
     background-color: gray;
+}
+div#picture img{
+    width: 100%;
+    height: 200px;
+    
+    object-fit: cover;
+}
+div.menu#mainmenu li{
+    margin: auto;
+    font-size: 20px;
+}
+div.menu#mainmenu ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+div.menu#mainmenu nav{
+    margin: 0 0 0 auto;
+}
+
+div.menu#mainmenu a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    padding: 0px;
+    border: 0;
+    display: flex;
     clear: both;
 }
-.main-contents{
-    height: 1000px;
-    background-color: white;
-    float: left;
-    width: 80%;
+
+div.main{
+    height: 500px;
 }
-.left-navi{
-    height: 800px;
-    background-color: whitesmoke;
-    width: 20%;
-    float: right;
+
+main div#main{
+    background-color: blueviolet;
+    width: 70%;
 
 }
-.right-navi{
-    background-color: whitesmoke;
-    height: 800px;
-    float: right;
-    width: 20%;
+
+main div#sidemenu{
+    background-color: crimson;
+    width: 30%;
+
 }
-.main{
-    width: 80%;
-    float: right;
+
+
+
+footer{
+    background-color: darkgreen;
+
 }
