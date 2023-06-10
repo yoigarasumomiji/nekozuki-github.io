@@ -1,6 +1,23 @@
-div.header#header{
-    width: 1000px;
+header{
+    display: flex;
+    position: relative;
+    left: 50px;
 }
-img{
+div.header#text{
+    width: 500px;
+    margin-left: 20px;
+}
+div.header > img{
+    width: 120px;
+}
+div.header > h1{
+    font-size: 50px;
+    border-bottom: solid 20px #87cefa;
+}
+
+div.header#header{
+    width: 1500px;
+}
+div.header#header > img{
     width: 100%;
 }

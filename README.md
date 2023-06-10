@@ -1,2 +1,2 @@
 # nekozuki-github.io
-何か
+更新不定期の猫好きブログ
