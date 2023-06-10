@@ -1,3 +1,7 @@
+div.outline#out{
+    text-align: center;
+}
+
 header{
     display: flex;
     position: relative;
@@ -21,3 +25,26 @@ div.header#header{
 div.header#header > img{
     width: 100%;
 }
+
+ul.mainmenu#main{
+    text-align: center;
+}
+
+ul.mainmenu#main > li{
+    display: inline-block;
+}
+ul.mainmenu#main > li > a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #000000;
+}
+ul.mainmenu#main > li:not(.menu1){
+    margin-left: 250px;
+}
+
+div.meinmenu#menu{
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+}
+
+
