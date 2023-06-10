@@ -16,7 +16,7 @@ div.header > h1{
 }
 
 div.header#header{
-    width: 1500px;
+    width: 100%;
 }
 div.header#header > img{
     width: 100%;
