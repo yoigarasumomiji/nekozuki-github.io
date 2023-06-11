@@ -1,0 +1,24 @@
+/* すべて真ん中によせる */
+div.outline#out{
+    text-align: center;
+}
+
+/* ヘッダー全体 */
+header{
+    display: flex;
+    position: relative;
+    left: 20px;
+}
+
+/* headerの中のdiv */
+header > div.header{
+    border-bottom: 20px solid #87cefa;
+}
+
+/* ヘッダーのimg */
+div.header > img{
+    width: 50px;
+    padding-top: 15px;
+}
+
+
