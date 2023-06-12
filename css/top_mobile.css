@@ -1,8 +1,3 @@
-/* すべて真ん中によせる */
-div.outline#out{
-    text-align: center;
-}
-
 /* ヘッダー全体 */
 header{
     display: flex;
@@ -13,6 +8,11 @@ header{
 /* headerの中のdiv */
 header > div.header{
     border-bottom: 20px solid #87cefa;
+}
+
+div.header#text > h1 > a{
+    text-decoration: none;
+    color: black;
 }
 
 /* ヘッダーのimg */
@@ -26,4 +26,21 @@ div.header#header > img{
     width: 100%;
 }
 
+/* メニューリスト */
+ul.mainmenu#main > li > a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+}
+ul.mainmenu#main > li{
+    display: inline-block;
+}
+div.meinmenu#menu{
+    border-bottom: solid 1px black;
+    border-top: solid 1px black;
+    white-space: nowrap;
+}
+ul.mainmenu#main > li:not(.menu1){
+    margin-left: 20px;
+}
 

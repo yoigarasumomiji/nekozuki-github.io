@@ -22,6 +22,10 @@ div.header > h1{
 div.header#header{
     width: 100%;
 }
+div.header#text > h1 > a{
+    text-decoration: none;
+    color: black;
+}
 div.header#header > img{
     width: 100%;
 }
