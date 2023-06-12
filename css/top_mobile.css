@@ -44,3 +44,7 @@ ul.mainmenu#main > li:not(.menu1){
     margin-left: 20px;
 }
 
+/* twitter icon */
+div.sns#twitter > img{
+    width: 50px;
+}
