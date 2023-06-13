@@ -43,8 +43,13 @@ div.meinmenu#menu{
 ul.mainmenu#main > li:not(.menu1){
     margin-left: 20px;
 }
+/* 空白スペース */
+div.space#a{
+    width: 100%;
+    height: 50px;
+}
 
 /* twitter icon */
-div.sns#twitter > img{
-    width: 50px;
+img.sns-icon#twitter{
+    width: 100px;
 }
