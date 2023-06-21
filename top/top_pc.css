@@ -58,7 +58,23 @@ img.sns-icon#twitter{
 }
 
 /* 空白スペース */
-div.space#a{
+div.space#space{
     width: 100%;
     height: 100px;
+}
+
+div.article{
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 20%;
+}
+p.article#article{
+    font-size: 70px;
+    text-decoration: none;
+    margin-right: 5%;
+}
+
+/* Twitterアイコンdiv */
+div.sns#twitter{
+    margin-left: 15%;
 }
