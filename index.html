@@ -4,38 +4,98 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="./js/first.js" defer></script>
-        <link rel="stylesheet" href="./top/top_pc.css" media="screen and (min-width:1024px)">
+        <link rel="stylesheet" href="./top_pc.css" media="screen and (min-width:1024px)">
         <link rel="stylesheet" href="./top/top_mobile.css" media="screen and (max-width:520px)">
         <title>猫好きブログ</title>
     </head>
     <body>
-        <div class="outline" id="out">
-            <header>
-                <div class="header" id="icon"><img src="./picture/headericon.png" alt="猫"></div>
-                <div class="header" id="text"><h1><a href="index.html">猫好きブログ</a></h1></div>
-            </header>
-            <div class="header" id="header"><img src="./picture/header.JPG" alt="switch"></div>
-            <div class="meinmenu" id="menu">
-                <nav>
-                    <ul class="mainmenu" id="main">
-                        <li class="menu1"><a href="index.html">トップ</a></li>
-                        <li class="menu2"><a href="./hobby/hobby_top.html">趣味</a></li>
-                        <li class="menu3"><a href="">プログラミング</a></li>
-                        <li class="menu4"><a href="./other/other_top.html">その他</a></li>
-                    </ul>
-                </nav>
-            </div>
+        <header>
+            <ul class="title">
+                <li class="header" id="icon"><img class="icon" src="./picture/headericon.png" alt="icon"></li>
+                <li class="header" id="title"><p>猫好きブログ</p></li>
+            </ul>
+            <ul class="menu">
+                <li class="menu" id="top"><a class="menu" href="">Top</a></li>
+                <li class="menu" id="about"><a class="menu" href="">About</a></li>
+                <li class="menu" id="daily"><a class="menu" href="">Daily</a></li>
+                <li class="menu" id="mydevelop"><a class="menu" href="">Mydevelop</a></li>
+            </ul>
+        </header>
+        <div class="picture"><img src="./picture/header.JPG" alt="switching hub"></div>
 
-            <div class="space" id="space"></div> <!--空白スペース-->
-            <div class="article">
-                <p class="article" id="article">-----記事一覧----</p>
-            </div>
-
-            <div class="sns">
-                <div class="sns" id="twitter">
-                    <a href="https://twitter.com/pnjx0g"><img class="sns-icon" id="twitter" src="./picture/twitter_icon.jpg" alt="twitter-icon"></a>
+        <div class="container">
+            <!-- 最近記事一覧 -->
+            <article class="article">
+                <h2>--最近の記事一覧--</h2>
+                <div class="inline">
+                    <!-- 最近記事左列 -->
+                    <div class="menuleft">
+                        <!-- 1~4 -->
+                        <div class="article-now" id="one">
+                            <img class="thubnail" src="./picture/headericon.png" alt="icon">
+                            <div class="title">
+                                <h3><a class="title-url" href="">title</a></h3>
+                                <p>文章文章文章文章文章文章文章文</p>
+                            </div>
+                        </div>
+                        <div class="article-now" id="two">
+                            <img class="thubnail" src="./picture/headericon.png" alt="icon">
+                            <div class="title">
+                                <h3><a class="title-url" href="">title</a></h3>
+                                <p>文章文章文章文章文章文章文章文</p>
+                            </div>
+                        </div>
+                        <div class="article-now" id="three">
+                            <img class="thubnail" src="./picture/headericon.png" alt="icon">
+                            <div class="title">
+                                <h3><a class="title-url" href="">title</a></h3>
+                                <p>文章文章文章文章文章文章文章文</p>
+                            </div>
+                        </div>
+                        <div class="article-now" id="four">
+                            <img class="thubnail" src="./picture/headericon.png" alt="icon">
+                            <div class="title">
+                                <h3><a class="title-url" href="">title</a></h3>
+                                <p>文章文章文章文章文章文章文章文</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 最近記事右列 -->
+                    <div class="menuright">
+                        <!-- 5~8 -->
+                        <div class="article-now" id="five">
+                            <img class="thubnail" src="./picture/headericon.png" alt="icon">
+                            <div class="title">
+                                <h3><a class="title-url" href="">title</a></h3>
+                                <p>文章文章文章文章文章文章文章文</p>
+                            </div>
+                        </div>
+                        <div class="article-now" id="six">
+                            <img class="thubnail" src="./picture/headericon.png" alt="icon">
+                            <div class="title">
+                                <h3><a class="title-url" href="">title</a></h3>
+                                <p>文章文章文章文章文章文章文章文</p>
+                            </div>
+                        </div>
+                        <div class="article-now" id="seven">
+                            <img class="thubnail" src="./picture/headericon.png" alt="icon">
+                            <div class="title">
+                                <h3><a class="title-url" href="">title</a></h3>
+                                <p>文章文章文章文章文章文章文章文</p>
+                            </div>
+                        </div>
+                        <div class="article-now" id="eight">
+                            <img class="thubnail" src="./picture/headericon.png" alt="icon">
+                            <div class="title">
+                                <h3><a class="title-url" href="">title</a></h3>
+                                <p>文章文章文章文章文章文章文章文</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </article>
+            <section class="page-menu"></section>
         </div>
+        <footer> <!--footer--> </footer>
     </body>
 </html>

@@ -1,0 +1,134 @@
+header{
+    display: flex;
+    border: solid 1px black;
+    height: 100px;
+}
+
+ul.title{
+    display: flex;
+}
+li.header{
+    list-style: none;
+}
+
+li.header#icon{
+    margin-top: -7.5px;
+    margin-right: 30px;
+}
+img.icon{
+    width: 85px;
+}
+li.header#title{
+    margin-top: 0px;
+}
+li.header#title > p{
+    font-size: 48px;
+    margin: 0;
+}
+ul.menu{
+    display: flex;
+    margin: 16px 20px 16px auto;
+    align-items:flex-end
+}
+li.menu{
+    list-style: none;
+}
+ul.menu > li{
+    margin-left: 50px;
+}
+a.menu{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+div.picture > img{
+    width: 100%;
+}
+
+div.container{
+    display: flex;
+    height: 700px;
+    align-items: center;
+}
+
+div.inline{
+    width: 802px;
+    height: 560px;
+    margin: 0 14px 0 14px;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+div.menuleft{
+    margin-right: 14px;
+    margin-left: 14px;
+    margin-top: 20px;
+    width: 380px;
+    height: 520px;
+}
+div.menuright{
+    margin-right: 14px;
+    margin-top: 20px;
+    width: 380px;
+    height: 520px;
+}
+div.article-now{
+    height: 100px;
+    width: 380px;
+    border: solid 1px black;
+    display: flex;
+    box-shadow: 2px 2px gainsboro;
+}
+div.article-now:not(#one):not(#five){
+    margin-top: 40px;
+}
+div.article-now > img{
+    width: 90px;
+    height: 90px;
+    margin-top: 4px;
+    margin-right: 28px;
+}
+div.title{
+    text-align: left;
+}
+div.title > h3{
+    margin: 10px 0 10px 0;
+}
+div.title > div.text{
+    margin: 0 0 0 0;
+}
+a.title-url{
+    text-decoration: none;
+    color: black;
+}
+
+article.article{
+    height: 650px;
+    width: 830px;
+    margin: 25px 15px 27px 22px;
+    margin-left: auto;
+    border: solid 1px black;
+    box-shadow: 3px 3px gainsboro;
+    text-align: center;
+}
+article.article > div.menuleft{
+    height: 100px;
+    width: 380px;
+}
+
+section.page-menu{
+    height: 650px;
+    width: 550px;
+    margin: 25px 20px 27px 0px;
+    border: solid 1px black;
+    box-shadow: 3px 3px gainsboro;
+    margin-right: auto;
+}
+
+
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: gainsboro;
+}
