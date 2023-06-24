@@ -106,8 +106,7 @@ a.title-url{
 article.article{
     height: 650px;
     width: 830px;
-    margin: 25px 15px 27px 22px;
-    margin-left: auto;
+    margin: 25px 15px 27px auto;
     border: solid 1px black;
     box-shadow: 3px 3px gainsboro;
     text-align: center;
@@ -120,10 +119,27 @@ article.article > div.menuleft{
 section.page-menu{
     height: 650px;
     width: 550px;
-    margin: 25px 20px 27px 0px;
+    margin: 25px auto 27px 0px;
     border: solid 1px black;
     box-shadow: 3px 3px gainsboro;
-    margin-right: auto;
+    text-align: center;
+}
+section.page-menu > h2{
+    margin: 0 auto 0 auto;
+}
+
+div.tree-menu{
+    width: 500px;
+    height: 570px;
+    margin: 0 auto 0 auto;
+    text-align: initial;
+    font-size: 20px;
+}
+ul.tree {
+    list-style: none;
+    margin-left: 15px;
+    padding-left: 30px;
+    border-left: 1px black solid;
 }
 
 
