@@ -125,15 +125,15 @@ section.page-menu{
     text-align: center;
 }
 section.page-menu > h2{
-    margin: 0 auto 0 auto;
+    margin: 20 auto 20 auto;
 }
 
 div.tree-menu{
     width: 500px;
     height: 570px;
     margin: 0 auto 0 auto;
-    text-align: initial;
     font-size: 20px;
+    text-align: initial;
 }
 ul.tree {
     list-style: none;
@@ -146,10 +146,12 @@ ul.tree#top{
 }
 li.path{
     padding-right: 200px;
+    margin-bottom: 15px;
 }
-li.path > p{
-    /* margin-bottom: 10px; */
+li.path > a{
     border-bottom: 1px solid black;
+    text-decoration: none;
+    color: black;
 }
 
 
