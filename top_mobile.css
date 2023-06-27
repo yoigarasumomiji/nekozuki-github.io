@@ -1,55 +1,37 @@
 /* ヘッダー全体 */
 header{
     display: flex;
-    position: relative;
-    left: 18%;
-}
-
-/* headerの中のdiv */
-header > div.header{
-    border-bottom: 20px solid #87cefa;
-}
-
-div.header#text > h1 > a{
-    text-decoration: none;
-    color: black;
-}
-
-/* ヘッダーのimg */
-div.header > img{
-    width: 50px;
-    padding-top: 15px;
-}
-
-/* ヘッダー画 */
-div.header#header > img{
-    width: 100%;
-}
-
-/* メニューリスト */
-ul.mainmenu#main > li > a{
-    text-decoration: none;
-    font-size: 15px;
-    color: #000000;
-}
-ul.mainmenu#main > li{
-    display: inline-block;
-}
-div.meinmenu#menu{
-    border-bottom: solid 1px black;
-    border-top: solid 1px black;
-    white-space: nowrap;
-}
-ul.mainmenu#main > li:not(.menu1){
-    margin-left: 20px;
-}
-/* 空白スペース */
-div.space#a{
-    width: 100%;
+    border: solid 1px black;
     height: 50px;
 }
 
-/* twitter icon */
-img.sns-icon#twitter{
-    width: 100px;
+ul.title{
+    display: flex;
+    padding-left: 3px;
+}
+li.header{
+    list-style-type: none;
+}
+
+li.header#icon{
+    margin-top: -10px;
+    margin-right: 10px;
+}
+img.icon{
+    width: 39px;
+}
+li.header#title{
+    margin-top: 0px;
+}
+li.header#title > p{
+    font-size: 20px;
+    margin: 0;
+}
+
+ul.menu{
+    display: none;
+}
+
+div.picture > img{
+    width: 100%;
 }
