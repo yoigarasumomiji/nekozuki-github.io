@@ -159,4 +159,13 @@ footer{
     height: 80px;
     width: 100%;
     background-color: gainsboro;
+    display: flex;
+}
+div.sns{
+    margin-left: auto;
+    margin-right: auto;
+}
+img.sns-icon{
+    height: 70px;
+    
 }
