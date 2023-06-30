@@ -45,8 +45,13 @@ a.menu{
     font-size: 20px;
 }
 
+div.picture{
+    text-align: center;
+    margin-top: 1px;
+}
 div.picture > img{
-    width: 100%;
+    max-width: 100%;
+    max-height: 500px;
 }
 
 div.container{
@@ -81,7 +86,7 @@ div.article-now{
     width: 380px;
     border: solid 1px black;
     display: flex;
-    box-shadow: 2px 2px gainsboro;
+    box-shadow: 2px 2px 3px gainsboro;
 }
 div.article-now:not(#one):not(#five){
     margin-top: 40px;
@@ -111,7 +116,7 @@ article.article{
     width: 830px;
     margin: 25px 15px 27px auto;
     border: solid 1px black;
-    box-shadow: 3px 3px gainsboro;
+    box-shadow: 3px 3px 3px gainsboro;
     text-align: center;
 }
 article.article > div.menuleft{
@@ -124,7 +129,7 @@ section.page-menu{
     width: 550px;
     margin: 25px auto 27px 0px;
     border: solid 1px black;
-    box-shadow: 3px 3px gainsboro;
+    box-shadow: 3px 3px 3px gainsboro;
     text-align: center;
 }
 section.page-menu > h2{

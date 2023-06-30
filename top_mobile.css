@@ -58,7 +58,7 @@ div.menuright{
 
 article.article{
     width: 360px;
-    height: 430px;
+    height: 435px;
     margin: 12px auto 15px auto;
     border: 1px solid black;
     text-align: center;
@@ -67,7 +67,6 @@ article.article{
 div.inline{
     width: 346px;
     height: 354px;
-    background-color: whitesmoke;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 1px;
@@ -76,7 +75,7 @@ div.inline{
 div.article-now{
     display: flex;
     border: 1px solid black;
-    box-shadow: 2px 2px gainsboro ;
+    box-shadow: 2px 2px 3px gainsboro ;
     height: 65px;
 }
 div.article-now:not(#one){
@@ -89,4 +88,49 @@ img.thubnail{
     width: 40px;
     height: 40px;
     margin: auto 10px auto 5px;
+}
+
+section.page-menu{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px gainsboro;
+    margin-bottom: 10px;
+}
+div.tree-menu{
+    width: 360px;
+    height: 500px;
+    font-size: 20px;
+}
+ul.tree{
+    list-style: none;
+    margin-left: 15px;
+    padding-left: 30px;
+    border-left: 1px black solid;
+}
+ul.tree#top{
+    padding-right: 30px;
+    border-left: initial;
+}
+li.path{
+    margin-bottom: 15px;
+}
+li.path > a{
+    border-bottom: 1px black solid;
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: gainsboro;
+    text-align: right;
+}
+
+img.sns-icon{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 10px;
+    width: 42px;
 }
