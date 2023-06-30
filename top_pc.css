@@ -140,8 +140,9 @@ div.tree-menu{
     width: 500px;
     height: 570px;
     margin: 0 auto 0 auto;
-    font-size: 20px;
+    font-size: 23px;
     text-align: initial;
+    font-weight: 600;
 }
 ul.tree {
     list-style: none;
@@ -154,7 +155,7 @@ ul.tree#top{
 }
 li.path{
     padding-right: 200px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 li.path > a{
     border-bottom: 1px solid black;
