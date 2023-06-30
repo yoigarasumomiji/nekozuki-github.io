@@ -3,7 +3,7 @@ header{
     display: flex;
     border: solid 1px black;
     height: 69px;
-    width: 100%;
+    width: 100%; 
 }
 
 ul.title{
@@ -15,7 +15,7 @@ li.header{
 }
 
 li.header#icon{
-    margin-top: -10px;
+    margin-top: -5px;
     margin-right: 10px;
 }
 img.icon{
@@ -33,10 +33,60 @@ ul.menu{
     display: none;
 }
 
+div.sp-menu{
+    width: 39px;
+    height: 39px;
+    border: 1px solid black;
+    margin: 15px 13px 16px auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+span.line{
+    border: 1px solid #000;
+    width: 25px;
+    margin-top: 9px;
+}
+
 div.picture > img{
     width: 100%;
 }
 
 div.menuright{
     display: none;
+}
+
+article.article{
+    width: 360px;
+    height: 430px;
+    margin: 12px auto 15px auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+div.inline{
+    width: 346px;
+    height: 354px;
+    background-color: whitesmoke;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1px;
+}
+
+div.article-now{
+    display: flex;
+    border: 1px solid black;
+    box-shadow: 2px 2px gainsboro ;
+    height: 65px;
+}
+div.article-now:not(#one){
+    margin-top: 20px;
+}
+div.article-now#one{
+    margin-top: 9px;
+}
+img.thubnail{
+    width: 40px;
+    height: 40px;
+    margin: auto 10px auto 5px;
 }

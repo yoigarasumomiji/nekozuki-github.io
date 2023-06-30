@@ -30,6 +30,9 @@ ul.menu{
     margin: 16px 20px 16px auto;
     align-items:flex-end
 }
+div.sp-menu{
+    display: none;
+}
 li.menu{
     list-style: none;
 }
