@@ -26,7 +26,7 @@ li.header#title{
 }
 li.header#title > p{
     font-size: 20px;
-    margin: 0;
+    margin: auto 0 auto 0;
 }
 
 ul.menu{
@@ -99,7 +99,6 @@ section.page-menu{
 }
 div.tree-menu{
     width: 360px;
-    height: 500px;
     font-size: 20px;
 }
 ul.tree{
