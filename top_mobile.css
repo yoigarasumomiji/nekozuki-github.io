@@ -22,7 +22,7 @@ img.icon{
     width: 39px;
 }
 li.header#title{
-    margin-top: 0px;
+    margin: auto 0 auto 0;
 }
 li.header#title > p{
     font-size: 20px;
