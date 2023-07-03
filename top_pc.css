@@ -28,7 +28,7 @@ li.header#title > p{
 ul.menu{
     display: flex;
     margin: 16px 20px 16px auto;
-    align-items:flex-end
+    align-items:flex-end;
 }
 div.sp-menu{
     display: none;
@@ -162,7 +162,15 @@ li.path > a{
     text-decoration: none;
     color: black;
 }
-
+p.path{
+    padding-right: 200px;
+    margin-bottom: 20px;
+}
+p.path > a{
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
 
 footer{
     height: 80px;
