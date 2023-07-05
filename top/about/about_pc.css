@@ -48,16 +48,20 @@ a.menu{
 div.picture{
     position: relative;
     margin-top: 1px;
+    width: 1900px;
+    height: 700px;
+    background-image: url('./pictures/about_header.JPG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: auto;
+    margin-left: auto;
 }
-div.picture > h2 {
+div.picture > h2.over {
     position: absolute;
-    bottom: 0;
-    right: 0;
     color: white;
     font-size: 128px;
-    margin: 0 30px ;
-}
-div.picture > img{
-    max-width: 100%;
-    max-height: 700px;
+    margin: 3px 15px 0 0;
+    right: 0;
+    bottom: 0;
 }
