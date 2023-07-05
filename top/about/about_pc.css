@@ -65,3 +65,22 @@ div.picture > h2.over {
     right: 0;
     bottom: 0;
 }
+img.about {
+    width: 680px;
+}
+
+div.content{
+    width: 1900px;
+    margin: 0 auto 0 auto;
+}
+
+div.info {
+    display: flex;
+}
+
+div.text {
+    margin-top: 60px;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
