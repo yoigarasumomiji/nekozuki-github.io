@@ -48,6 +48,10 @@ a.menu{
 div.picture{
     position: relative;
     margin-top: 1px;
+    width: fit-content;
+    max-height: 700px;
+    margin-right: auto;
+    margin-left: auto;
 }
 div.picture > h2 {
     position: absolute;
@@ -60,4 +64,17 @@ div.picture > h2 {
 div.picture > img{
     max-width: 100%;
     max-height: 700px;
+}
+
+div.info{
+    display: flex;
+}
+div.slide-pic {
+    width: fit-content;
+    height: 460px;
+}
+img.about {
+    width: 680px;
+    height: 460px;
+    
 }
