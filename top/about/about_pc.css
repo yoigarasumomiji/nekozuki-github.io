@@ -66,7 +66,7 @@ div.picture > h2.over {
     bottom: 0;
 }
 
-div.slide-pic{
+div.slide-pic-left{
     width: 700px;
     height: 700px;
     display: flex;
@@ -84,6 +84,7 @@ div.content{
 
 div.info {
     display: flex;
+    margin-top: 30px;
 }
 
 div.text {
@@ -91,30 +92,46 @@ div.text {
     font-size: 30px;
     margin-left: 100px;
 }
+.target {
+    font-size: 30px;
+    width: 700px;
+    height: 700px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.programming {
+    width: 700px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.target p{
+    text-indent: 1em;
+}
 
 /* スライドショー関係 */
-div.slide-pic{
+div.slide-pic-left{
     position: relative;
     background-color: white;
 }
 
-
-.slide-pic img:nth-of-type(1){
+.slide-pic-left img:nth-of-type(1){
     z-index: 1;
     position: absolute;
 }
-.slide-pic img:nth-of-type(2){
-    animation-delay: 9s;
+.slide-pic-left img:nth-of-type(2){
+    animation-delay: 14s;
     z-index: 2;
-    animation-duration: 18s;
+    animation-duration: 23s;
 }
-.slide-pic img:nth-of-type(3){
-    animation-delay: 0s;
+.slide-pic-left img:nth-of-type(3){
+    animation-delay: 5s;
     z-index: 3;
-    animation-duration: 18s;
+    animation-duration: 23s;
 }
 
-.slide-pic img:not(img:nth-of-type(1)){
+.slide-pic-left img:not(img:nth-of-type(1)){
     /* display: none; */
     position: absolute;
     animation-name: slide-show;
@@ -129,9 +146,9 @@ div.slide-pic{
         right: 0;
     }
     50%{
-        right: 120%;
+        right: 200%;
     }
     100%{
-        right: 120%;
+        right: 200%;
     }
 }

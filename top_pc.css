@@ -51,19 +51,19 @@ div.picture{
 }
 div.picture > img{
     max-width: 100%;
-    max-height: 500px;
+    max-height: 700px;
 }
 
 div.container{
     display: flex;
-    height: 700px;
+    height: 800px;
     align-items: center;
 }
 
 div.inline{
-    width: 802px;
-    height: 560px;
-    margin: 0 14px 0 14px;
+    width: 820px;
+    height: 650px;
+    margin: 0 auto 0 auto;
     display: flex;
     background-color: whitesmoke;
 }
@@ -112,8 +112,8 @@ a.title-url{
 }
 
 article.article{
-    height: 650px;
-    width: 830px;
+    height: 750px;
+    width: 950px;
     margin: 25px 15px 27px auto;
     border: solid 1px black;
     box-shadow: 3px 3px 3px gainsboro;
@@ -125,8 +125,8 @@ article.article > div.menuleft{
 }
 
 section.page-menu{
-    height: 650px;
-    width: 550px;
+    height: 750px;
+    width: 600px;
     margin: 25px auto 27px 0px;
     border: solid 1px black;
     box-shadow: 3px 3px 3px gainsboro;
