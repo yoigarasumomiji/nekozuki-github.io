@@ -65,8 +65,16 @@ div.picture > h2.over {
     right: 0;
     bottom: 0;
 }
+
+div.slide-pic{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
 img.about {
-    width: 680px;
+    width: 700px;
+    object-fit: cover;
 }
 
 div.content{
@@ -79,8 +87,51 @@ div.info {
 }
 
 div.text {
-    margin-top: 60px;
+    margin-top: 100px;
     font-size: 30px;
     margin-left: 100px;
 }
 
+/* スライドショー関係 */
+div.slide-pic{
+    position: relative;
+    background-color: white;
+}
+
+
+.slide-pic img:nth-of-type(1){
+    z-index: 1;
+    position: absolute;
+}
+.slide-pic img:nth-of-type(2){
+    animation-delay: 9s;
+    z-index: 2;
+    animation-duration: 18s;
+}
+.slide-pic img:nth-of-type(3){
+    animation-delay: 0s;
+    z-index: 3;
+    animation-duration: 18s;
+}
+
+.slide-pic img:not(img:nth-of-type(1)){
+    /* display: none; */
+    position: absolute;
+    animation-name: slide-show;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-show{
+    0% {
+        right: 0;
+    }
+    50%{
+        right: 120%;
+    }
+    100%{
+        right: 120%;
+    }
+}
