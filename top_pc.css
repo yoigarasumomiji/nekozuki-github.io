@@ -73,13 +73,13 @@ div.menuleft{
     margin-left: 14px;
     margin-top: 20px;
     width: 380px;
-    height: 520px;
+    height: 550px;
 }
 div.menuright{
     margin-right: 14px;
     margin-top: 20px;
     width: 380px;
-    height: 520px;
+    height: 550px;
 }
 div.article-now{
     height: 100px;
@@ -89,7 +89,7 @@ div.article-now{
     box-shadow: 2px 2px 3px gainsboro;
 }
 div.article-now:not(#one):not(#five){
-    margin-top: 40px;
+    margin-top: 50px;
 }
 div.article-now > img{
     width: 90px;
